@@ -4,7 +4,7 @@ import AboutSection from "@/components/AboutSection";
 import ProjectsSection from "@/components/ProjectsSection";
 import ContactSection from "@/components/ContactSection";
 
-const Index = () => {
+const Portfolio = () => {
   return (
     <div className="min-h-screen">
       <Navigation />
@@ -16,4 +16,4 @@ const Index = () => {
   );
 };
 
-export default Index;
+export default Portfolio;
