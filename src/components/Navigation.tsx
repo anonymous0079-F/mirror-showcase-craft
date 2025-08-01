@@ -28,13 +28,6 @@ const Navigation = () => {
             </Button>
             <Button
               variant="ghost"
-              onClick={() => scrollToSection('projects')}
-              className="text-foreground hover:text-primary smooth-transition"
-            >
-              Chat
-            </Button>
-            <Button
-              variant="ghost"
               onClick={() => scrollToSection('contact')}
               className="text-primary hover:text-primary-glow smooth-transition"
             >
