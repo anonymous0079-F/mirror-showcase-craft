@@ -47,44 +47,6 @@ const ProjectsSection = () => {
             Featured Projects
           </h2>
         </div>
-
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {projects.map((project, index) => (
-            <Card 
-              key={index}
-              className="glass-card border-0 overflow-hidden group hover:glow-effect smooth-transition cursor-pointer"
-            >
-              <div className="aspect-video overflow-hidden">
-                <img
-                  src={project.image}
-                  alt={project.title}
-                  className="w-full h-full object-cover group-hover:scale-105 smooth-transition"
-                />
-              </div>
-              <CardHeader>
-                <CardTitle className="text-foreground text-xl">
-                  {project.title}
-                </CardTitle>
-                <CardDescription className="text-muted-foreground">
-                  {project.description}
-                </CardDescription>
-              </CardHeader>
-              <CardContent>
-                <div className="flex flex-wrap gap-2">
-                  {project.technologies.map((tech, techIndex) => (
-                    <Badge 
-                      key={techIndex}
-                      variant="secondary"
-                      className="bg-primary/20 text-primary border-primary/30 hover:bg-primary/30 smooth-transition"
-                    >
-                      {tech}
-                    </Badge>
-                  ))}
-                </div>
-              </CardContent>
-            </Card>
-          ))}
-        </div>
       </div>
     </section>
   );
