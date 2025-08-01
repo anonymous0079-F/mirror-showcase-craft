@@ -4,8 +4,7 @@ import heroBackground from "@/assets/hero-background.jpg";
 
 const AboutSection = () => {
   const technologies = [
-    "React", "TypeScript", "Node.js", "Python", "AWS", "Docker",
-    "PostgreSQL", "MongoDB", "GraphQL", "Next.js", "TailwindCSS", "Git"
+    "React", "Node.js", "Python", "MongoDB", "Next.js", "TailwindCSS", "Git"
   ];
 
   return (
